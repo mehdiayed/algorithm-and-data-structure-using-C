@@ -65,7 +65,7 @@ void InfixTree(Node* node) {
     }
 
     InfixTree(node->left);
-    printf("%d ", node->data);
+    printf("%d", node->data);
     InfixTree(node->right);
 }
 
@@ -118,5 +118,53 @@ void deleteLeaf(Tree* tree, int valeur) {
 }
 
 void deleteNode(Tree* tree, int valeur) {
-    // TODO: Implement deleteNode function
+  Node *node = findNode(tree, valeur);
+  if (!node) {
+    return;
+  }
+
+  if (!node->left && !node->right) {
+    // Node is a leaf
+    if (node == tree->root) {
+      tree->root = NULL;
+    } else {
+      if (node == node->parent->left) {
+        node->parent->left = NULL;
+      } else {
+        node->parent->right = NULL;
+      }
+    }
+    free(node);
+  } else if (node->left && !node->right) {
+    // Node has only a left child
+    node->left->parent = node->parent;
+    if (node == tree->root) {
+      tree->root = node->left;
+    } else {
+      if (node == node->parent->left) {
+        node->parent->left = node->left;
+      } else {
+        node->parent->right = node->left;
+      }
+    }
+    free(node);
+  } else if (!node->left && node->right) {
+    // Node has only a right child
+    node->right->parent = node->parent;
+    if (node == tree->root) {
+      tree->root = node->right;
+    } else {
+      if (node == node->parent->left) {
+        node->parent->left = node->right;
+      } else {
+        node->parent->right = node->right;
+      }
+    }
+    free(node);
+  } else {
+    // Node has two children
+    Node *successor = findSuccessor(node);
+    node->data = successor->data;
+    deleteNode(tree, successor->data);
+  }
 }
