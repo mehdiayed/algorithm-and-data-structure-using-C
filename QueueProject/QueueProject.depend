@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1700419000 source:c:\users\sky\downloads\sesame\ingta1-e-s1\asd\queueproject\main.c
+	<stdio.h>
+	"Queue.h"
+
+1700417688 c:\users\sky\downloads\sesame\ingta1-e-s1\asd\queueproject\queue.h
+
+1700418981 source:c:\users\sky\downloads\sesame\ingta1-e-s1\asd\queueproject\queue.c
+	<stdio.h>
+	"Queue.h"
+

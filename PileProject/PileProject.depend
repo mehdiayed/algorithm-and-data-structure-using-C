@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1699700383 source:c:\users\sky\downloads\sesame\ingta1-e-s1\asd\pileproject\main.c
+	<stdio.h>
+	<stdlib.h>
+	"pile.h"
+
+1699700383 c:\users\sky\downloads\sesame\ingta1-e-s1\asd\pileproject\pile.h
+
+1699700383 source:c:\users\sky\downloads\sesame\ingta1-e-s1\asd\pileproject\pile.c
+	<stdio.h>
+	"pile.h"
+

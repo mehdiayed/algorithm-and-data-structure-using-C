@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1701427698 source:c:\users\sky\downloads\sesame\ingta1-e-s1\asd\treeproject\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Tree.h"
+
+1701427919 c:\users\sky\downloads\sesame\ingta1-e-s1\asd\treeproject\tree.h
+
+1701427982 source:c:\users\sky\downloads\sesame\ingta1-e-s1\asd\treeproject\tree.c
+	<stdio.h>
+	"Tree.h"
+

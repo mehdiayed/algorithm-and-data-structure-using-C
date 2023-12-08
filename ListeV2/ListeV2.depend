@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1700902206 source:c:\users\sky\downloads\sesame\ingta1-e-s1\asd\listev2\main.c
+	<stdio.h>
+	<stdlib.h>
+	"ListeV2.h"
+
+1700901102 c:\users\sky\downloads\sesame\ingta1-e-s1\asd\listev2\listev2.h
+
+1700901758 source:c:\users\sky\downloads\sesame\ingta1-e-s1\asd\listev2\listev2.c
+	<stdio.h>
+	<stdlib.h>
+	"ListeV2.h"
+

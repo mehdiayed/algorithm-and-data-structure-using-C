@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1700910025 source:c:\users\sky\downloads\sesame\ingta1-e-s1\asd\pilewithlist\main.c
+	<stdio.h>
+	<stdlib.h>
+	"PileWithList.h"
+	"ListeFunctions.h"
+
+1700909573 source:c:\users\sky\downloads\sesame\ingta1-e-s1\asd\pilewithlist\pilewithlist.c
+	<stdio.h>
+	"ListeFunctions.h"
+	"PileWithList.h"
+
+1700908343 c:\users\sky\downloads\sesame\ingta1-e-s1\asd\pilewithlist\pilewithlist.h
+	"ListeFunctions.h"
+
+1700908319 c:\users\sky\downloads\sesame\ingta1-e-s1\asd\pilewithlist\listefunctions.h
+
+1700908812 source:c:\users\sky\downloads\sesame\ingta1-e-s1\asd\pilewithlist\listefunctions.c
+	<stdio.h>
+	<stdlib.h>
+	"ListeFunctions.h"
+
